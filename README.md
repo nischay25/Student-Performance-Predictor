@@ -152,14 +152,36 @@ Student-Performance-Prediction/
 
 # ▶️ How to Run the Project
 
-1. Clone the repository.
-2. Install the required Python libraries.
-3. Open the Jupyter Notebook or Google Colab notebook.
-4. Run all cells in sequence.
-5. Train the model.
-6. Perform hyperparameter tuning.
-7. Evaluate the model.
-8. Predict results for new student data.
+# ⚡ Quick Start
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/nischay25/Student-Performance-Predictor.git
+cd Student-Performance-Predictor
+```
+
+### 2. Install Required Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the Streamlit Application
+
+```bash
+streamlit run app.py
+```
+
+### 4. Open the Application
+
+After running the command, Streamlit will display a local URL similar to:
+
+```text
+http://localhost:8501
+```
+
+Open it in your browser to use the application.
 
 ---
 
@@ -174,8 +196,7 @@ After comparing multiple regression algorithms, the best-performing model was se
 * Train on larger and more diverse datasets.
 * Perform advanced feature engineering.
 * Explore ensemble methods such as XGBoost and LightGBM.
-* Deploy the model using Flask, FastAPI, or Streamlit.
-* Build a user-friendly web interface for real-time predictions.
+* Deploy the model using Flask.
 
 ---
 
